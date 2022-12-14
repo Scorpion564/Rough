@@ -83,7 +83,7 @@ nav img {
     position: relative;
     padding: 10px 30px;
     margin: 0 15px;
-    color: rgb(241, 176, 12);
+    color: rgb(255, 204, 2);
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -196,4 +196,38 @@ h1 {
     line-height: 22px;
     padding: 12px;
     font-family: 'Poppins', sans-serif;
+}
+
+.teacher-images {
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.manager {
+    border-radius: 35px;
+    flex-basis: 31%;
+    background: #d7c8c86c;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.principal {
+    border-radius: 35px;
+    flex-basis: 31%;
+    background: #d7c8c86c;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.manager:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.principal:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
