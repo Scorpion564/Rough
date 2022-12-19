@@ -189,45 +189,79 @@ h1 {
     font-family: 'Poppins', sans-serif;
 }
 
-.about-teachers {
-    color: #444;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 22px;
-    padding: 12px;
-    font-family: 'Poppins', sans-serif;
-}
-
+/*Images setting*/
 .teacher-images {
-    margin: 5%;
+    margin-top: 5%;
     display: flex;
     justify-content: space-between;
 }
 
+/*Image setting of manager*/
 .manager {
-    border-radius: 35px;
     flex-basis: 31%;
-    background: #d7c8c86c;
+    background: #fff3f3;
+    border-radius: 35px;
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
 }
 
+.manager h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.manager p {
+    text-align: center;
+    font-weight: 530;
+    margin: 10px 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/*Image setting of principal*/
 .principal {
-    border-radius: 35px;
     flex-basis: 31%;
-    background: #d7c8c86c;
+    background: #fff3f3;
+    border-radius: 35px;
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
 }
 
+.principal h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.principal p {
+    text-align: center;
+    font-weight: 530;
+    margin: 10px 0;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+/*Hover effect for box*/
 .manager:hover {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
 
 .principal:hover {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+/*setting for mobile view*/
+@media(max-width: 700px) {
+    .teacher-images {
+        flex-direction: column;
+    }
 }
