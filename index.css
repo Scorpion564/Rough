@@ -83,7 +83,7 @@ nav img {
     position: relative;
     padding: 10px 30px;
     margin: 0 15px;
-    color: rgb(255, 204, 2);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -94,7 +94,7 @@ nav img {
 }
 
 .more-btn:hover {
-    background: #444;
+    background: transparent;
     color: white;
     transition-delay: 0.5s;
 }
